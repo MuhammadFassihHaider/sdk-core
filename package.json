@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "git+https://github.com/MuhammadFassihHaider/uniswap-sdk-core",
+  "repository": "https://github.com/MuhammadFassihHaider/uniswap-sdk-core",
   "keywords": [
     "uniswap",
     "ethereum"
