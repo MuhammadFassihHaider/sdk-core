@@ -114,7 +114,6 @@ const OPTIMISM_GOERLI_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0xB8ae5ebFF4ea49c4c620fd63f815Cf740F292b58',
   nonfungiblePositionManagerAddress: '0xCE64e1a634BD1f62715DE84181A0dE108f1d2DE8',
   tickLensAddress: '0x66d0d31E771B31bDcBA12ACaB9F576D1325CA570',
-  swapRouter02Address: '0x0580C2719C53EEf2Ae5836473E0566C8370E6C22'
 }
 
 // arbitrum goerli v3 addresses
@@ -169,6 +168,17 @@ const BASE_GOERLI_ADDRESSES: ChainAddresses = {
   swapRouter02Address: '0x8357227D4eDc78991Db6FDB9bD6ADE250536dE1d',
 }
 
+const BNB_TESTNET_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0xB4E008B5C653fd27fE3B1C921ae50C4EC5238C03',
+  multicallAddress: '0x22d692a88ad7B9C8AC92E56F61fcFB2eB9899360',
+  quoterAddress: '0xD01C600E6c87dCd227F52fbBC358F90ee71a0e7B',
+  v3MigratorAddress: '0x7b7C8aF5A85a1667d2342c5eB57d089d8E8DC23d',
+  nonfungiblePositionManagerAddress: '0x0580C2719C53EEf2Ae5836473E0566C8370E6C22',
+  tickLensAddress: '0xfe047A1182FE7bc6A18B55b45012F285F3DEEa69',
+  swapRouter02Address: '0xA94E8A6497c8D118C6dD15Ad1BcE9120c03A9D9b',
+}
+
+
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
   [ChainId.OPTIMISM]: OPTIMISM_ADDRESSES,
@@ -185,6 +195,7 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.AVALANCHE]: AVALANCHE_ADDRESSES,
   [ChainId.BASE]: BASE_ADDRESSES,
   [ChainId.BASE_GOERLI]: BASE_GOERLI_ADDRESSES,
+  [ChainId.BNB_TESTNET]: BNB_TESTNET_ADDRESSES
 }
 
 /* V3 Contract Addresses */
